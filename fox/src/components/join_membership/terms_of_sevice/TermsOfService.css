@@ -1,0 +1,20 @@
+.Community,
+.Mail,
+.Newsletter,
+.Privacy,
+.PrivacySelect,
+.TextMessage,
+.Use {
+    height: 500px;
+    margin: calc((100vh - 159px - 166px - 500px)/2) 100px;
+}
+
+.Community h2,
+.Mail h2,
+.Newsletter h2,
+.Privacy h2,
+.PrivacySelect h2,
+.TextMessage h2,
+.Use h2 {
+    margin-bottom: 50px;
+}

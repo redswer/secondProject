@@ -1,0 +1,90 @@
+.notice_item {
+    width: 80%;
+    margin: 0 auto;
+    border-top: 1px solid;
+}
+
+.notice_item th{
+    padding: 20px 0;
+}
+
+.notice_item td {
+    border-top: 1px solid #efefef;
+}
+.notice_list {
+    width: 1240px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.notice {
+    line-height: 100px;
+}
+
+.notice_no {
+    width: 15%;
+    padding: 20px 0;
+}
+
+.notice_title {
+    text-align: left;
+    padding: 20px 0;
+}
+
+.notice_title:hover {
+    /* faq_item을 호버할때 적용되는 css라서
+       faq_open과 속성이 동일해야 이질감 없다. */
+    cursor: pointer;
+    font-weight: bold;
+    transform: scale(1.01);
+}
+
+.notice_content img {
+    width: 700px;
+    margin-top: 30px;
+}
+.notice_open {
+    background-color:#f7f7f7;
+    font-weight: bold;
+}
+
+/* .notice_content {
+    background-color:#f7f7f7;
+    text-align: left;
+    padding: 15px 0px 15px 148px;
+    border-top: none;
+    font-weight: bold;
+} */
+
+.notice_content {
+    padding: 10px 10px 10px 20px;
+}
+
+.notice_content_open {
+    /* 클릭되서 content가 open되면 적용. */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.notice_content_open:hover {
+    /* 클릭되서 content가 open되면 애니메이션효과 없게 */
+    transform: scale(1.0);
+}
+
+.notice_img {
+    margin-left: calc((100% - 650px) /2);
+    width: 650px;
+}
+
+.notice_content_title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.notice_content_title::before {
+    content: '🔖';
+    margin-right:10px;
+}

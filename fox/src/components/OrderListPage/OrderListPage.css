@@ -1,0 +1,59 @@
+.order_list_page_container {
+    width: 1100px;
+    margin: 0 auto;
+    /* border: 1px solid brown; */
+}
+
+
+.order_list_head_box {
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.order_list_head_date_number {
+    background-color: rgb(195, 195, 195);
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.order_list_head_product_infomation {
+    background-color: rgb(195, 195, 195);
+    width: 400px;
+    border: 1px solid black;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.order_list_head_price_amount {
+    background-color: rgb(195, 195, 195);
+    width: 150px;
+    /* 750 , 1100-750 =350 */
+    border: 1px solid black;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.order_list_head_delivery-state {
+    background-color: rgb(195, 195, 195);
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.order_list_head_cancel_btn {
+    background-color: rgb(195, 195, 195);
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}

@@ -1,0 +1,107 @@
+.customer_service_mail_inquires {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.inquires {
+    text-align: center;
+    line-height: 100px;
+}
+
+.mail_inquires {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mail_inquires_tabel {
+    width: 850px;
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+.mail_inquires_tabel th {
+    width: 130px;
+    height: 50px;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color: rgb(237, 248, 255);
+}
+
+.mail_inquires_tabel td {
+    padding: 20px;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+}
+
+.inquries_select {
+    width: 150px;
+    height: 25px;
+    background-color: rgb(241, 241, 241);
+}
+
+.inquires_title {
+    width: 80%;
+    height: 25px;
+}
+
+.inquires_email {
+    width: 350px;
+    height: 25px;
+}
+
+.inquires_email_change {
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+}
+
+.inquires_email_change:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.inquires_content {
+    width: 80%;
+    resize: none;
+}
+
+.file_upload {
+    height: 25px;
+}
+
+.file {
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px dotted rgba(0, 0, 0, 0.2);
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.file:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.file_found {
+    display: none;
+}
+
+.component_btn {
+    text-align: center;
+}
+
+.btn_submit,
+.btn_cencel {
+    width: 150px;
+    height: 50px;
+    margin: 20px 30px;
+}

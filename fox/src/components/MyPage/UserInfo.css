@@ -1,0 +1,150 @@
+.UserInfo {
+    width: 1240px;
+    margin: auto;
+}
+
+.bi-person-circle {
+    color: rgb(119, 175, 107);
+}
+
+.user_info_main_text {
+    margin: 50px auto;
+    align-items: center;
+}
+
+.user_info_main_text h1 {
+    margin-left: 20px;
+}
+
+.user_info_main_text+div h2 {
+    color: rgb(119, 175, 107);
+}
+
+/* ====================== */
+
+.UserInfo table {
+    border: 1px solid #666;
+    border-collapse: collapse;
+    text-align: left;
+    margin: auto;
+    width: 100%;
+}
+
+.UserInfo tbody {
+    flex-direction: column;
+}
+
+.UserInfo table th {
+    width: 200px;
+    background-color: honeydew;
+    border-right: 1px solid #666;
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+.UserInfo table tr {
+    border: 1px solid #666;
+    line-height: 50px;
+}
+
+.UserInfo_input {
+    line-height: 30px;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: auto 20px;
+}
+
+.error-message {
+    color: red;
+    font-size: 70%;
+    margin-left: 20px;
+}
+
+/* ============================== */
+
+.user_info_profile {
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+}
+
+.user_info_profile_size {
+    font-weight: initial;
+    font-size: 16px;
+}
+
+#user_info_profile_img {
+    width: 150px;
+    height: 150px;
+}
+
+.user_info_upload_img_explain {
+    margin-left: 30px;
+    line-height: 30px;
+    font-size: 80%;
+    color: red;
+}
+
+/* ============================= */
+
+.UserInfo span a {
+    background-color: whitesmoke;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+/* ================================= */
+
+#user_info_email_domain {
+    font-size: 20px;
+    background-color: whitesmoke;
+    height: 30px;
+    text-align: center;
+}
+
+.user_info_email_explain {
+    margin-left: 10px;
+    color: rgb(119, 175, 107);
+}
+
+/* ==================================== */
+
+.user_info_phone_number input {
+    text-align: center;
+}
+
+.user_info_sms_explain {
+    margin-left: 10px;
+    color: rgb(119, 175, 107);
+}
+
+/* ======================================== */
+
+.user_info_btn {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.user_info_submit_btn {
+    width: 150px;
+    height: 50px;
+    margin: auto 50px;
+    font-size: 20px;
+    background-color: rgb(119, 175, 107);
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+    &:disabled {
+        background-color: #666;
+    }
+}
+
+.user_info_btn .user_info_cancel_btn {
+    background-color: darkgray;
+    border: 1px solid;
+    color: black;
+}

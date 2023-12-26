@@ -1,0 +1,29 @@
+.seller_product_addcart_btn {
+  background-color: rgb(155, 154, 154);
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-right: 10px;
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+}
+
+.seller_product_payment_btn {
+  width: 80px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(255, 88, 88);
+  border: none;
+  border-radius: 3px;
+}
+
+.seller_product_addcart_btn:hover {
+  background-color: rgb(82, 82, 82);
+}
+
+.seller_product_payment_btn:hover {
+  background-color: rgb(173, 0, 0);
+}
